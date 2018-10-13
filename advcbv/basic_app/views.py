@@ -24,5 +24,5 @@ class Index(TemplateView):
 
     def get_context_data(self,**kwargs):
         context=super().get_context_data(**kwargs)
-        context['injectme'] = 'THIS IS A SAMPLE INJCTION'
+        context['injectme'] = 'THIS IS A SAMPLE INJCTION from GITHUB'
         return context
